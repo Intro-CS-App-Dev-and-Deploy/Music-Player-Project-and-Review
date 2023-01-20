@@ -11,6 +11,7 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 
 Ideas:
 - MP3 Metadata Populating Strings, Introduction to API Populating all Data Types, Constructors and toString()
+- Reading number of items in a folder, advanced pathways and abstract pathways
 
 ---
 
