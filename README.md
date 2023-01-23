@@ -3,6 +3,12 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 
 ---
 
+# To Do List
+- Review Computer Science Planning and Grading to get a summary idea of curriculum and reference
+- What other repositories should I incorporate and delete
+
+---
+
 # Purpose
 - Create Visual Data independent on the display
 - Create a music player (using a library, Minim) dependant on the Songs being ```dropped``` into the folder
@@ -16,6 +22,8 @@ Note about file.txt:
 - music player automatically finding music file and using file reading-writing to remember this file is an advanced application of CS30 and CS20
 - extends the concept of program personalization based on file.txt and population of variables
 
+---
+
 # Outline with internal Hyperlinks
 1. Case Study
 2. Developer Level Rectangles, Layout Connections to Case Study
@@ -28,7 +36,7 @@ Ideas:
 
 ---
 
-#Progressions
+# Progressions
 
 ---
 
