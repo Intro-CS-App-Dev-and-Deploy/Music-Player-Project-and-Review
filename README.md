@@ -4,8 +4,11 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 ---
 
 # Purpose
-- Create Visual Data independant on the display
+- Create Visual Data independent on the display
 - Create a music player (using a library, Minim) dependant on the Songs being ```dropped``` into the folder
+- Understand how prototyping pieces can be incorporated into a larger program (rules for how code is read by compiler)
+- Understand how pseudocode fits into static-dynamic-procedural-classes-abstractClasses-interfaces
+- Understand how groups of lines are named and understood as sections in a larger program, when it can be ignored as functioning properly
 
 **Entire Music Program runs independent of display and music being played**
 
