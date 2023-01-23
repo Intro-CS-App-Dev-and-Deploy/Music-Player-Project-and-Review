@@ -3,6 +3,16 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 
 ---
 
+# Purpose
+- Create Visual Data independant on the display
+- Create a music player (using a library, Minim) dependant on the Songs being ```dropped``` into the folder
+
+**Entire Music Program runs independent of display and music being played**
+
+Note about file.txt:
+- music player automatically finding music file and using file reading-writing to remember this file is an advanced application of CS30 and CS20
+- extends the concept of program personalization based on file.txt and population of variables
+
 # Outline with internal Hyperlinks
 1. Case Study
 2. Developer Level Rectangles, Layout Connections to Case Study
