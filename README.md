@@ -42,4 +42,24 @@ Ideas:
 
 # To Include
 
+### Self Populating from Folder
+```JAVA
+//file = new File(dataPath("../../../../Musicxs/.mp3"));
+//Absolute Path vs. relative path using getPath()
+  File folder = new File("F:/My Documents/GitHub/Hello-World/Final-Project/Musicxs");
+  File[] FileList = folder.listFiles();
+  for (File file : FileList) {
+    if (file.isFile()) {
+      if (file.toString().endsWith(".mp3")) {
+        System.out.println(file.getName().toLowerCase()); //Lists Files In Music Folder ending in ".mp3"
+      }
+    }
+  }
+//Use to count number of files in folder
+//Use to self-populate music files loading
+//Then use MetaData in .mp3 to get other information
+```
+
+See: https://github.com/Intro-CS-App-Dev-and-Deploy/App-Development/tree/main/Music%20Program/Prototyping%20Minim/Mutliple%20Songs%20with%20Arrays/01%20Mutli%20Song%20Load/Advanced%20Research%20and%20Library
+
 ---
