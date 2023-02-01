@@ -10,8 +10,9 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 ---
 
 # Purpose
-- Create Visual Data independent on the display
-- Create a music player (using a library, Minim) dependant on the Songs being ```dropped``` into the folder
+- Create code for Visual Data, independent of actual data
+- Use Music Library, Minim, to process all .mp3 data and meta data
+- Use Java Libraries to read files
 - Understand how prototyping pieces can be incorporated into a larger program (rules for how code is read by compiler)
 - Understand how pseudocode fits into static-dynamic-procedural-classes-abstractClasses-interfaces
 - Understand how groups of lines are named and understood as sections in a larger program, when it can be ignored as functioning properly
@@ -26,9 +27,11 @@ Note about file.txt:
 
 # Outline with internal Hyperlinks
 1. Case Study
-2. Developer Level Rectangles, Layout Connections to Case Study
-3. 2D Shapes: "The Buttons of a Music Player
-4. 
+. Developer Level Rectangles, Layout Connections to Case Study
+. Geometry Checker: landscape, portrait, and square
+. Display Checker: does the CANVAS fit in the Display, is the Canvas the same geometry as the screen, how can the appWidth and AppHeight be adjusted to help this ("turn your phone")
+. 2D Shapes: "The Buttons of a Music Player
+. 
 
 Ideas:
 - MP3 Metadata Populating Strings, Introduction to API Populating all Data Types, Constructors and toString()
