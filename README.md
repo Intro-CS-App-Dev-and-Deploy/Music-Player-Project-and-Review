@@ -27,6 +27,11 @@ Note about file.txt:
 
 # Outline with internal Hyperlinks
 - General: Case Study, <a href="">Click Here when Available</a>
+- Introductory, Dynamic Programming: HelloWorld & simple Procedural Programming (intro to intermediate), 
+<a href="">Click Here when Available</a>
+- TBA, <a href="">Click Here when Available</a>
+
+---
 
 ## Any Course: Case Study
 
@@ -34,9 +39,49 @@ Image of a Music Player
 
 Recopy image and layout developer level rectangles: develop ratios
 
-Use Static Programming to build required 2D Images for Music Buttons
-- 
+**CAUTION: for Static Programming Below**: part of introduction to Processing.org IDE
+- Install Minim Library
+- Ability to Read any .mp3 from folder
+- Note: students must look-up code if another file
 
+### Introductory: introducing Processing.org PDE, variables, print | println, and character escapes
+
+Use Static Programming to build required 2D Images for Music Buttons
+- **KeyBoard Shortcuts ONLY:** with console only
+- Sound Effect for User Action (use ```.loop(0)``` ), see You Tube Audio Library or Above for Freeware Files
+- Play | Pause | Error Catch if at the end of a song
+- Stop Button | Error for 
+- Three Looping Functions: single song, infinite on single song, entire play list
+- Mute
+- Within a song: skip forward, skip reverse
+- Building Arrays
+- Next & Previous Buttons | Error Catch for Array out of Bounds
+
+Note: these are taught with specific algorithms
+
+### Intermediate and Advanced Only
+
+Use Static Programming to build Canvas Feedback from songs (Meta Data)
+- Demonstrate how to verify song meta data in WINDOWS
+- **Note:** verify with console but use CANVAS, no Display or Geoemtry Error Catching yet
+- Current Position
+- Total Length ( .length() )
+- Title ( .title() )
+- .author()
+- .composer()
+- .orchestra()
+- .album()
+- .disc()
+- .publisher()
+- .date()
+- .copyright()
+- .comment()
+- .lyrics()
+- .track()
+- .genre()
+- .encoded() //how a computer reads the file
+
+### For Information  
 Short List of Required Minum Library Functions
 - .play() //Parameter is start of file in milliseconds, null is beginning of file
 - .isPlaying() //Boolean
@@ -69,7 +114,8 @@ Additional Meta Data Functions
 - .genre()
 - .encoded() //how a computer reads the file
 
-###
+---
+
 ## Introductory: Processing.pde HelloWorld
 
 
