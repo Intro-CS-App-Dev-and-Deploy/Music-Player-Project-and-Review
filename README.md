@@ -26,8 +26,59 @@ Note about file.txt:
 ---
 
 # Outline with internal Hyperlinks
+- General: Case Study, <a href="">Click Here when Available</a>
+
+## Any Course: Case Study
+
+Image of a Music Player
+
+Recopy image and layout developer level rectangles: develop ratios
+
+Use Static Programming to build required 2D Images for Music Buttons
+- 
+
+Short List of Required Minum Library Functions
+- .play() //Parameter is start of file in milliseconds, null is beginning of file
+- .isPlaying() //Boolean
+- .loop() //Parameter is number of repeats, then song plays one last time, null is infinite
+- .isMuted()
+- .mute()
+- .unmute()
+- .skip(1000); // Parameter is +- milliseconds
+- .position()
+- .length()
+- .pause()
+- .rewind()
+- .title() //Meta Data Example
+
+Additional Meta Data Functions
+- *Note:* if .mp3 does not have meta data, use folder file name in it's place as default
+- .fileName()
+- .length()
+- .author()
+- .composer()
+- .orchestra()
+- .album()
+- .disc()
+- .publisher()
+- .date()
+- .copyright()
+- .comment()
+- .lyrics()
+- .track()
+- .genre()
+- .encoded() //how a computer reads the file
+
+###
+## Introductory: Processing.pde HelloWorld
+
+
+---
+
+## Ideas for Above
 1. Case Study
 . Developer Level Rectangles, Layout Connections to Case Study
+. Hello World
 . Geometry Checker: landscape, portrait, and square
 . Display Checker: does the CANVAS fit in the Display, is the Canvas the same geometry as the screen, how can the appWidth and AppHeight be adjusted to help this ("turn your phone")
 . 2D Shapes: "The Buttons of a Music Player
