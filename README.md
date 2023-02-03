@@ -40,7 +40,7 @@ Image of a Music Player
 Recopy image and layout developer level rectangles: develop ratios
 
 **CAUTION: for Static Programming Below**: part of introduction to Processing.org IDE
-- Install Minim Library
+- Install Minim Library (optimal: other libraries and code examples)
 - Ability to Read any .mp3 from folder
 - Note: students must look-up code if another file
 
