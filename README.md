@@ -36,6 +36,7 @@ Note about file.txt:
 ## Any Course: Case Study
 
 Image of a Music Player
+- Google Rapid Prototyping (You Tube Video): https://www.youtube.com/watch?v=JMjozqJS44M
 
 Recopy image and layout developer level rectangles: develop ratios
 
@@ -44,7 +45,12 @@ Recopy image and layout developer level rectangles: develop ratios
 - Ability to Read any .mp3 from folder
 - Note: students must look-up code if another file
 
-### Introductory: introducing Processing.org PDE, variables, print | println, and character escapes
+While Developing the Paper and Pencil version of a Case Study, install the Minim Library to the Processing.org IDE
+- Sketch / Add Library / Minim / Install
+
+More Case Study Ideas for the Music and Sound Players, see Minim (https://code.compartmental.net/minim/)
+
+### Any Course: introducing Processing.org PDE, variables, print | println, and character escapes
 
 Use Static Programming to build required 2D Images for Music Buttons
 - **KeyBoard Shortcuts ONLY:** with console only
@@ -62,6 +68,10 @@ Note: these are taught with specific algorithms
 ### Intermediate and Advanced Only
 
 Use Static Programming to build Canvas Feedback from songs (Meta Data)
+
+Note: must develop code about how to read Files and Pathways in Windows
+
+Progressions
 - Demonstrate how to verify song meta data in WINDOWS
 - **Note:** verify with console but use CANVAS, no Display or Geoemtry Error Catching yet
 - Current Position
