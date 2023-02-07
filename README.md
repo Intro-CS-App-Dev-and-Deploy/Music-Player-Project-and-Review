@@ -7,6 +7,8 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 - Review Computer Science Planning and Grading to get a summary idea of curriculum and reference
 - What other repositories should I incorporate and delete
 
+# Assessment
+ 1. 
 ---
 
 # Purpose
@@ -34,11 +36,14 @@ Note about file.txt:
 ---
 
 ## Any Course: Case Study
+- Assessment, paper and pencil: developer-level case study ( includes ```rect()``` ) and descriptions of information
+- Assessment, CONSOLE and CANVAS: code illustrates above within time limit
 
 Image of a Music Player
 - Google Rapid Prototyping (You Tube Video): https://www.youtube.com/watch?v=JMjozqJS44M
 
 Recopy image and layout developer level rectangles: develop ratios
+- Optional: start keyboard shortcuts and meta data population, then recopy image with developer rectangle layouts and variables
 
 **CAUTION: for Static Programming Below**: part of introduction to Processing.org IDE
 - Install Minim Library (optimal: other libraries and code examples)
@@ -78,7 +83,7 @@ Note: must develop code about how to read Files and Pathways in Windows
 
 Progressions
 - Demonstrate how to verify song meta data in WINDOWS
-- **Note:** verify with console but use CANVAS, no Display or Geoemtry Error Catching yet
+- **Note:** verify with console but use CANVAS, no Display or Geometry Error Catching yet
 - Current Position
 - Total Length ( .length() )
 - Title ( .title() )
@@ -97,7 +102,7 @@ Progressions
 - .encoded() //how a computer reads the file
 
 ### For Information  
-Short List of Required Minum Library Functions
+Short List of Required Minim Library Functions
 - .play() //Parameter is start of file in milliseconds, null is beginning of file
 - .isPlaying() //Boolean
 - .loop() //Parameter is number of repeats, then song plays one last time, null is infinite
