@@ -51,6 +51,9 @@ While Developing the Paper and Pencil version of a Case Study, install the Minim
 More Case Study Ideas for the Music and Sound Players, see Minim (https://code.compartmental.net/minim/)
 
 ### Any Course: introducing Processing.org PDE, variables, print | println, and character escapes
+- Purpose: evaluate the contents of variables at different lines of execution
+- Illustrate NULL, different values, need for CASTING, and Garbage Collection
+- Mathematics: scaled dimesion (variable), no code can be copied into different programs and easily changed
 
 Use Static Programming to build required 2D Images for Music Buttons
 - **KeyBoard Shortcuts ONLY:** with console only
@@ -64,6 +67,8 @@ Use Static Programming to build required 2D Images for Music Buttons
 - Next & Previous Buttons | Error Catch for Array out of Bounds
 
 Note: these are taught with specific algorithms
+
+Note: later this code will affect the CANVAS
 
 ### Intermediate and Advanced Only
 
