@@ -8,7 +8,11 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 - What other repositories should I incorporate and delete
 
 # Assessment
- 1. 
+ 1. Case Study, Developer-level rectangles and information descriptions, paper matching code, 
+ <a href="https://github.com/Intro-CS-App-Dev-and-Deploy/Music-Player-Project-and-Review#any-course-case-study">
+ See Here</a>
+ . , <a href="">See here when available</a>
+ 
 ---
 
 # Purpose
