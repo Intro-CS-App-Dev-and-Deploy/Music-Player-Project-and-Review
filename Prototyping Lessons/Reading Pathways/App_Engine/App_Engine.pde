@@ -25,10 +25,9 @@ void setup() {
   //
   File anyDirectory = new File(path); //Used when exported
   println ("Exported Directory", anyDirectory);
-  File githubDirectory = new File(directory); //Used when prototyping
   File[] FileListAnyDirectory = anyDirectory.listFiles();
   printArray(FileListAnyDirectory);
-  println("Items in FileList:", FileListAnyDirectory.length);
+  println("Items in Exported Folder:", FileListAnyDirectory.length);
   int i = 0; //songs index
   for (File file : FileListAnyDirectory) {
     if ( file.isFile() ) {
@@ -41,7 +40,11 @@ void setup() {
   }
   //
   //When Prototyping, songs is not loaded from anyDirectory
+  File githubDirectory = new File(directory); //Used when prototyping
+  println ("Prototyping Directory", githubDirectory);
   File[] FileListGitHubDir = githubDirectory.listFiles();
+  printArray(FileListGitHubDir);
+  println("Items in Prototyped Folder:", FileListGitHubDir.length);
   if ( songs[0] == null ) {
     printArray(FileListGitHubDir);
     for ( File file : FileListGitHubDir ) {
@@ -51,6 +54,8 @@ void setup() {
           songs[i] = minim.loadFile(file.getName());
           i+=1;
         }
+      } else {
+        println("Not .MP3", file);
       }
     }
   } //Catch when Pathway NULL, not exported
