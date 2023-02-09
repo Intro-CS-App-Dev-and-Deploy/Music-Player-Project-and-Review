@@ -318,3 +318,13 @@ Ideas
 See: https://github.com/Intro-CS-App-Dev-and-Deploy/App-Development/tree/main/Music%20Program/Prototyping%20Minim/Mutliple%20Songs%20with%20Arrays/01%20Mutli%20Song%20Load/Advanced%20Research%20and%20Library
 
 ---
+
+## To Include: Introductory Progressions
+- [] Case Study
+- [] Pick sound effects and Music
+- [] Load sound effects and Music to setup, include loop(0) to demo
+- [] Explore .play(milliseconds) to make sound effect not repeat
+- Come back to music player later
+- [] 2D Music Buttons: list them all from above
+
+---
