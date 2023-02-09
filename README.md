@@ -4,6 +4,9 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 ---
 
 # To Do List
+- Pathways: separate sounds from sound files
+  - try hardcoding these to review how to hardcode files into Minim
+
 - Review Computer Science Planning and Grading to get a summary idea of curriculum and reference
 - What other repositories should I incorporate and delete
 
