@@ -14,6 +14,7 @@ import ddf.minim.ugens.*;
 String path = new File("").getAbsolutePath(); //Exported Program
 //CAUTION: GitHub must be linked to the C-Drive instead of FS ... This might need a lesson
 String directory = "C:/Users/mmercer/Documents/GitHub/Sandbox-App-Engine-Reivew-P3/App_Engine"; //Not Exported
+String SoundFolder = "Sound";
 //Reminder: \n is a character escape, so pathway must have forward slashes
 //
 Minim minim; //creates an object to access all functions
