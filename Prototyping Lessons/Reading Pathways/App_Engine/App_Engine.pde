@@ -14,7 +14,6 @@ import ddf.minim.ugens.*;
 String path = new File("").getAbsolutePath(); //Exported Program
 //CAUTION: GitHub must be linked to the C-Drive instead of FS ... This might need a lesson
 String directory = "C:/Users/mmercer/Documents/GitHub/Sandbox-App-Engine-Reivew-P3/App_Engine"; //Not Exported
-String SoundFolder = "Sound";
 //Reminder: \n is a character escape, so pathway must have forward slashes
 //
 Minim minim; //creates an object to access all functions
@@ -44,19 +43,20 @@ void setup() {
   File githubDirectory = new File(directory); //Used when prototyping
   println ("Prototyping Directory", githubDirectory);
   File[] FileListGitHubDir = githubDirectory.listFiles();
-  printArray(FileListGitHubDir);
-  println("Items in Prototyped Folder:", FileListGitHubDir.length);
   if ( songs[0] == null ) {
     printArray(FileListGitHubDir);
+    println("Items in Prototyped Folder:", FileListGitHubDir.length);
     for ( File file : FileListGitHubDir ) {
       if ( file.isFile() ) {
-        if ( file.toString().endsWith(".mp3") ) {
-          println("File Name .mp3 only", file.getName() );
+        if ( file.toString().endsWith("_sound.mp3") ) {
+          println("File Name sound.mp3 only", file.getName() );
+          songs[i] = minim.loadFile(file.getName());
+          i+=1;
+        } else if ( file.toString().endsWith(".mp3") ) {
+          println("File Name.mp3 only", file.getName() );
           songs[i] = minim.loadFile(file.getName());
           i+=1;
         }
-      } else {
-        println("Not .MP3", file);
       }
     }
   } //Catch when Pathway NULL, not exported
