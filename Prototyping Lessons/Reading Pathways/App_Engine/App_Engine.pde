@@ -1,6 +1,6 @@
-/* CAUTION
- This code will cause the array songs to be null sometimes.
- This must be error checked
+/* CAUTION and Notes
+ 1. This code will cause the array songs to be null sometimes. This must be error checked
+ 2. Files must be dragged and dropped into the IDE for a DATA Folder to be created. Thus, Processing-JAVA recognises these
  */
 //
 import ddf.minim.*;
@@ -14,6 +14,7 @@ import ddf.minim.ugens.*;
 String path = new File("").getAbsolutePath(); //Exported Program
 //CAUTION: GitHub must be linked to the C-Drive instead of FS ... This might need a lesson
 String directory = "C:/Users/mmercer/Documents/GitHub/Sandbox-App-Engine-Reivew-P3/App_Engine"; //Not Exported
+String data = "/data"; //automatic folder created by Processing.org JAVA for all text, image, music, etc files
 //Reminder: \n is a character escape, so pathway must have forward slashes
 //
 Minim minim; //creates an object to access all functions
@@ -23,11 +24,16 @@ void setup() {
   //
   minim = new Minim (this); //load from data directory, loadFile should also load from project folder, like loadImage
   //
+  //Start to list where the processing.exe is located
   File anyDirectory = new File(path); //Used when exported
   println ("Exported Directory", anyDirectory);
   File[] FileListAnyDirectory = anyDirectory.listFiles();
   printArray(FileListAnyDirectory);
   println("Items in Exported Folder:", FileListAnyDirectory.length);
+  //
+  //CAUTION: this needs to be updated to amend the path into data
+  //See Below
+  //
   int i = 0; //songs index
   for (File file : FileListAnyDirectory) {
     if ( file.isFile() ) {
@@ -39,10 +45,25 @@ void setup() {
     }
   }
   //
-  //When Prototyping, songs is not loaded from anyDirectory
+  //When Prototyping, songs is not loaded from anyDirectory ... but the GitHub Project folder
+  //The order of lines executed and varaibles takes an algorithm to understand
+  //Start to list the files where the Sketch is located
   File githubDirectory = new File(directory); //Used when prototyping
   println ("Prototyping Directory", githubDirectory);
   File[] FileListGitHubDir = githubDirectory.listFiles();
+  printArray(FileListGitHubDir);
+  println("Items in Prototyped Folder:", FileListGitHubDir.length);
+  //
+  String directoryData = directory + data;
+  File githubDirData = new File(directoryData);
+  println ("Prototyping Directory into DATA Folder", githubDirData);
+  File[] FileListGithubDirData = githubDirData.listFiles();
+  printArray(FileListGithubDirData);
+  println("Items in Prototyped Folder:", FileListGithubDirData.length);
+  //
+  //Continue Here
+  //Might need to change copy file
+  //
   if ( songs[0] == null ) {
     printArray(FileListGitHubDir);
     println("Items in Prototyped Folder:", FileListGitHubDir.length);
