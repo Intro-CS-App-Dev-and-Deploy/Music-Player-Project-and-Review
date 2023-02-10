@@ -58,16 +58,14 @@ void setup() {
   File githubDirData = new File(directoryData);
   println ("Prototyping Directory into DATA Folder", githubDirData);
   File[] FileListGithubDirData = githubDirData.listFiles();
-  printArray(FileListGithubDirData);
-  println("Items in Prototyped Folder:", FileListGithubDirData.length);
   //
   //Continue Here
   //Might need to change copy file
   //
   if ( songs[0] == null ) {
-    printArray(FileListGitHubDir);
-    println("Items in Prototyped Folder:", FileListGitHubDir.length);
-    for ( File file : FileListGitHubDir ) {
+    printArray(FileListGithubDirData);
+    println("Items in Prototyped Folder:", FileListGithubDirData.length);
+    for ( File file : FileListGithubDirData ) {
       if ( file.isFile() ) {
         if ( file.toString().endsWith("_sound.mp3") ) {
           println("File Name sound.mp3 only", file.getName() );
