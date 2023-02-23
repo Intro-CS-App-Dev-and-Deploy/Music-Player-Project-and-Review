@@ -10,6 +10,10 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 - Review Computer Science Planning and Grading to get a summary idea of curriculum and reference
 - What other repositories should I incorporate and delete
 
+- 2D Music Buttons from one point
+- Include Pseudocode
+- See (Teacher Only): https://github.com/Intro-CS-App-Dev-and-Deploy/Music-Player-Button-2D-Shapes-Prototyping
+
 Reminder: this resource goes to Developers Outreach
 - List Code Features, Algorithms, and Mathematics
 
