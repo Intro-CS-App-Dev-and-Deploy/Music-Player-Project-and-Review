@@ -328,3 +328,7 @@ See: https://github.com/Intro-CS-App-Dev-and-Deploy/App-Development/tree/main/Mu
 - [] 2D Music Buttons: list them all from above
 
 ---
+
+Music Player Button Prototyping: https://github.com/Intro-CS-App-Dev-and-Deploy/Music-Player-Button-2D-Shapes-Prototyping
+
+---
