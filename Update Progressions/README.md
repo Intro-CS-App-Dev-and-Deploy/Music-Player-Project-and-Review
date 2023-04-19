@@ -29,12 +29,26 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 - Introduce NULL and Error catch related to single line IF, output empty String to CONSOLE
 - Finish Loading Music by summarizing it into a TAB and linking it to the MAIN Program (i.e. subprogram repeats boilerplate for connections to MAIN)
 - Algorithms for Music Features, prototyped in to keyPressed using Normal Keys
-  -  Simple Single Song Play Buttons
- Play-Pause
- Stop
- Mute
- Fast Forward
- Fast Rewind
+  -  Simple Single Song Play Buttons, as Case Studies
+    - Describe in simple words and answer "what does this button do, how does it differ from other buttons
+    - Play-Pause (remember, develop these buttons separately then combine them)
+    - Stop
+    - Mute
+    - Fast Forward
+    - Fast Rewind
+  - Library Functions needed for Buttons Above
+    - .isPlaying()
+    - .isMuted()
+    - .pause()
+    - .rewind()
+    - .play(), but Auto Play is better (see below)
+    - .unmute()
+    - .mute()
+    - .skip(+/-milliSeconds)
+  - Once code is IN keypressed() under different Normal Buttons, group code and create separate VOIDs to name the feature
+  - Purpose: code is written once but accessed more than once
+  - keyPressed() should only have references to VOIDs in Music TAB (Subprogram)
+
 
 
 ### Ideas
@@ -42,17 +56,30 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 
 - Multiple Songs require change to array and index (computer tracks alpha numeric variable naming)
 
-
+- Program Start in OS, Splash Screen to Enter, then Feature List
+- Music Program can be a button or an Easter Egg hidden as a hoverover feature developed into every case study
+- 
 
 ---
 
 # Assessment
+- Different Items to Grade, <a href="">Click Here when Available</a>
+- List of Expected Prototyped Programs, <a href="">Click Here when Available</a>
+
+Different Items to Grade
 - Concatenation of Strings to form pathways and file names
 - Population of all visual objects dependant on size() or fullScreen() to appWidth & appHeight
 - Music Subprogram & Boilerplate connections from TAB to MAIN
 
 - Naming of groups of code and connection to MAIN Program
 
+Note about assessment
+- Music Program or App Engine will contain all code
+- Each Lesson is prototyped as a separate program
+
+List of Prototyped Programs to be in corporated into Music Program or App Engine
+- Loading Music and Sound Effects, verified with setup() code or very simple keyPressed(){} code
+- Music Player Button Features
 
  ### Future Assignments to Check, when is unknown
 
