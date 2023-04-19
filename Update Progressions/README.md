@@ -21,10 +21,35 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 - Verify Button Pressing uses a sound effect (keyPressed & mousePressed)
   - introduce released and different parts of the mouse
   - collectively called listeners, interrupts void draw() 
+- Verify music will play with simple play button connected to last line in setup()
+- Verify specific song will play with keyPressed and mousePressed
+  - keyPressed: normal keys and keyCode
+  - mousePressed: LEFT, RIGHT, CENTER, WHEEL, etc.
+- Introduce MP3 metadata, what peices of metadata will be used
+- Introduce NULL and Error catch related to single line IF, output empty String to CONSOLE
+- Finish Loading Music by summarizing it into a TAB and linking it to the MAIN Program (i.e. subprogram repeats boilerplate for connections to MAIN)
+- Algorithms for Music Features, prototyped in to keyPressed using Normal Keys
+  -  Simple Single Song Play Buttons
+ Play-Pause
+ Stop
+ Mute
+ Fast Forward
+ Fast Rewind
+
+
+### Ideas
+- advanced introductory: list of music files .mp3, as populated from meta data from .mp3 files (CAUTION: this is an impossible ask, can you explain why)
+
+- Multiple Songs require change to array and index (computer tracks alpha numeric variable naming)
+
+
+
+---
 
 # Assessment
 - Concatenation of Strings to form pathways and file names
 - Population of all visual objects dependant on size() or fullScreen() to appWidth & appHeight
+- Music Subprogram & Boilerplate connections from TAB to MAIN
 
 - Naming of groups of code and connection to MAIN Program
 
@@ -34,7 +59,7 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 
 ---
 
-# Purpose Long LIst (code & algorithms)
+# Purpose Long List (code & algorithms)
 
 
 ---
