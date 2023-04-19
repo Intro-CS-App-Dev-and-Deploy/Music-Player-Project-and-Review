@@ -99,7 +99,9 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
   - [] Boolean-control line ink and shape fill with day mode and night mode colours
     - [] introduce time clock as forcing control of night mode
     - [] variable uses simple addition ( counting cycles of draw(){} )
-    - [] check time clock every million cycles and update variables ( i.e. 54000 cycles = 60 * 60 * 15 )
+    - [] check time clock every million cycles and update variables
+    - [] For example, checking every 15 minutes, 54000 cycles = 60 * 60 * 15
+    - [] Note: this is not crystal based but OS based ... OS might prioritize something else than 60 cycles of draw every second
   
 
 
@@ -110,7 +112,14 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
     - [] Auto Play Button (used instead of a play button)
     - [] Next Button
     - [] Previous Button
+  - [] Advanced Buttons
+    - [] Loop Current Song Infinitely
+    - [] Loop Play List
+    - [] Shuffle Play List (hint: randomly choose song number, might need casting)
+- [] Advanced: drawing 2D buttons anywhere on the canvas (do activity of put a dot on the page and fold to find the ratio of dimensions)
 
+
+GOTO P4 and CONTINUE HERE
 
 ### Ideas (Read this in VCS)
 - advanced introductory: list of music files .mp3, as populated from meta data from .mp3 files (CAUTION: this is an impossible ask, can you explain why)
