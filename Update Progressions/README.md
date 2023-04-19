@@ -51,15 +51,26 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
     - .unmute()
     - .mute()
     - .skip(+/-milliSeconds)
-  - Once code is IN keypressed() under different Normal Buttons, group code and create separate VOIDs to name the feature
+  - Once code is IN keyPressed(){} under different Normal Buttons, group code and create separate VOIDs to name the feature
   - Purpose: code is written once but accessed more than once
   - keyPressed() should only have references to VOIDs in Music TAB (Subprogram)
-  - Advanced Buttons, require Array for Play List
-
 - 2D Shapes as Music Feature Symbols
-  - design of music buttons based on rect(), triangle(), and ellipse()
+  - Case Study the different features, will relate to previous definitions of music features
+    - Observe how buttons like next song include ideas like fast forward and pause or fast forward and autoplay (if song was already playing) 
+    - design buttons in order, illustrate how stop designs rest: stop, pause, play, mute, skip forward in seconds, skip reverse in seconds, next song, previous song, three loops, and a shuffle (shapes in fast forward and next illustrate what actually happens)
+    - design of music buttons based on rect(), triangle(), and ellipse()
+    - Case Study will determine how keyVariable width or displayWidth will determine basic STOP button
+    - Note: STOP Button, square, determines basic sizes of other buttons
+  - Introduce difference between size() and fullScreen()
+  - Declare landscape, square, or portrait
+  - Use println() to verify CANVAS will fit into DISPLAY
+  - Introduce simple number OR variable comparison to populate appWidth & appHeight
+  - ERROR Catch: if CANVAS does not fit in DISPLAY, appWidth & appHeight are display key variables instead
+  - Optional ERROR Catch: ternary operator to turn phone from portrait to landscape
+  
+  - Using the referent of the side length of the STOP button, design all layout rect() of all the other buttons
 
-
+- Advanced Buttons, require Array for Play List
 
 ### Ideas (Read this in VCS)
 - advanced introductory: list of music files .mp3, as populated from meta data from .mp3 files (CAUTION: this is an impossible ask, can you explain why)
