@@ -3,74 +3,114 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 
 ---
 
+**Reminder:** ReadMe.MD should be known as a list making tool with HTML and GitHub Markdown
+
 # Progressions short list
-- Case Study of Music App or Music Buttons (Static or Pop-style Menu Item)
-- Find MP3 Files, music & Sound Effects (You Tube Audio Library)
-  - Able to use my downloaded examples
-- Introduction and Review of Processing IDE, Processing Boilerplate
-- Introduction and Review of Manager (Libraries & features, example code, various print resources related to code)
-- Introduction to Minim Library (code within Processing, Minim Website and Documentation)
-- Introduction to Variables: declaration, naming (camel & snake,), global & local, manipulation
+- [] Case Study of Music App or Music Buttons (Static or Pop-style Menu Item)
+- [] Find MP3 Files, music & Sound Effects (You Tube Audio Library)
+  - [] Able to use my downloaded examples
+- [] Introduction and Review of Processing IDE, Processing Boilerplate
+- [] Introduction and Review of Manager (Libraries & features, example code, various print resources related to code)
+- [] Introduction to Minim Library (code within Processing, Minim Website and Documentation)
+- [] Introduction to Variables: declaration, naming (camel & snake,), global & local, manipulation
 
-- Question about Progression: does minim allow static programs to work?
+- [] Question about Progression: does minim allow static programs to work?
 
-- String Variables: pathways, files names and types, concatenation
-- Console for inspection: print() & println() with character escapes
-- Using Idea of Processing Boilerplate to inflate variables with specific music
-- Able to name music-variable same as fileName but better to introduce playList as collection of songsNum (intro array)
-- Verify Button Pressing uses a sound effect (keyPressed & mousePressed)
-  - introduce released and different parts of the mouse
-  - collectively called listeners, interrupts void draw() 
-- Verify music will play with simple play button connected to last line in setup()
-- Verify specific song will play with keyPressed and mousePressed
-  - keyPressed: normal keys and keyCode
-  - mousePressed: LEFT, RIGHT, CENTER, WHEEL, etc.
-- Introduce MP3 metadata, what pieces of metadata will be used
-- Introduce NULL and Error catch related to single line IF, output empty String to CONSOLE
-- Finish Loading Music by summarizing it into a TAB and linking it to the MAIN Program (i.e. subprogram repeats boilerplate for connections to MAIN)
-- Key Board Shortcut for Quit: normal "Q" and ESC keycode button
-  - Reminder: void draw will finish executing rest of code grouping
-  - Will need delay() feature so keyPressed(){} will play full sound effects
-  - keyPressed(){} sound effect
-  - exit() sound effect
-- Algorithms for Music Features, prototyped in to keyPressed using Normal Keys
-- Note: Algorithms can be done at same time as 2D Buttons Objects (See Below)
-  -  Simple Single Song Play Buttons, as Case Studies
-    - Describe in simple words and answer "what does this button do, how does it differ from other buttons
-    - Play-Pause (remember, develop these buttons separately then combine them)
-    - Stop
-    - Mute
-    - Fast Forward
-    - Fast Rewind
-  - Library Functions needed for Buttons Above
-    - .isPlaying()
-    - .isMuted()
-    - .pause()
-    - .rewind()
-    - .play(), but Auto Play is better (see below)
-    - .unmute()
-    - .mute()
-    - .skip(+/-milliSeconds)
-  - Once code is IN keyPressed(){} under different Normal Buttons, group code and create separate VOIDs to name the feature
-  - Purpose: code is written once but accessed more than once
-  - keyPressed() should only have references to VOIDs in Music TAB (Subprogram)
-- 2D Shapes as Music Feature Symbols
-  - Case Study the different features, will relate to previous definitions of music features
-    - Observe how buttons like next song include ideas like fast forward and pause or fast forward and autoplay (if song was already playing) 
-    - design buttons in order, illustrate how stop designs rest: stop, pause, play, mute, skip forward in seconds, skip reverse in seconds, next song, previous song, three loops, and a shuffle (shapes in fast forward and next illustrate what actually happens)
-    - design of music buttons based on rect(), triangle(), and ellipse()
-    - Case Study will determine how keyVariable width or displayWidth will determine basic STOP button
-    - Note: STOP Button, square, determines basic sizes of other buttons
-  - Introduce difference between size() and fullScreen()
-  - Declare landscape, square, or portrait
-  - Use println() to verify CANVAS will fit into DISPLAY
-  - Introduce simple number OR variable comparison to populate appWidth & appHeight
-  - ERROR Catch: if CANVAS does not fit in DISPLAY, appWidth & appHeight are display key variables instead
-  - Optional ERROR Catch: ternary operator to turn phone from portrait to landscape
+- [] String Variables: pathways, files names and types, concatenation
+- [] Console for inspection: print() & println() with character escapes
+- [] Using Idea of Processing Boilerplate to inflate variables with specific music
+- [] Able to name music-variable same as fileName but better to introduce playList as collection of songsNum (intro array)
+- [] Verify Button Pressing uses a sound effect (keyPressed & mousePressed)
+  - [] introduce released and different parts of the mouse
+  - [] collectively called listeners, interrupts void draw() 
+- [] Verify music will play with simple play button connected to last line in setup()
+- [] Verify specific song will play with keyPressed and mousePressed
+  - [] keyPressed: normal keys and keyCode
+  - [] mousePressed: LEFT, RIGHT, CENTER, WHEEL, etc.
+- [] Introduce MP3 metadata, what pieces of metadata will be used
+- [] Introduce NULL and Error catch related to single line IF, output empty String to CONSOLE
+- [] Finish Loading Music by summarizing it into a TAB and linking it to the MAIN Program (i.e. subprogram repeats boilerplate for connections to MAIN)
+- [] Key Board Shortcut for Quit: normal "Q" and ESC keycode button
+  - [] Reminder: void draw will finish executing rest of code grouping
+  - [] Will need delay() feature so keyPressed(){} will play full sound effects
+  - [] keyPressed(){} sound effect
+  - [] exit() sound effect
+- [] Algorithms for Music Features, prototyped in to keyPressed using Normal Keys
+-[]  Note: Algorithms can be done at same time as 2D Buttons Objects (See Below)
+  -  [] Simple Single Song Play Buttons, as Case Studies
+    - [] Describe in simple words and answer "what does this button do, how does it differ from other buttons
+      - [] Descriptions will guide IF statements below
+    - [] Play-Pause (remember, develop these buttons separately then combine them)
+    - [] Stop
+    - [] Mute
+    - [] Fast Forward
+    - [] Fast Rewind
+  - [] Library Functions needed for Buttons Above
+    - [] .isPlaying()
+    - [] .isMuted()
+    - [] .pause()
+    - [] .rewind()
+    - [] .play(), but Auto Play is better (see below)
+    - [] .unmute()
+    - [] .mute()
+    - [] .skip(+/-milliSeconds)
+  - [] Pseudocode all buttons & demonstrate one way of coding
+    - [] Single Line IF
+    - [] Multiple Line IF
+    - [] IF - ELSE
+    - [] IF - ELSE IF - ELSE
+  - [] Once code is IN keyPressed(){} under different Normal Buttons, group code and create separate VOIDs to name the feature
+  - [] Purpose: code is written once but accessed more than once
+  - [] keyPressed() should only have references to VOIDs in Music TAB (Subprogram)
+- [] 2D Shapes as Music Feature Symbols
+  - [] Case Study the different features, will relate to previous definitions of music features
+    - [] Observe how buttons like next song include ideas like fast forward and pause or fast forward and auto-play (if song was already playing) 
+    - [] design buttons in order, illustrate how stop designs rest:
+      - [] stop
+      - [] pause
+      - [] play
+      - [] mute
+      - [] fast forward, skip forward in seconds
+      - [] fast reverse, skip reverse in seconds
+      - [] next song
+      - [] previous song
+      - [] three loops buttons (single song once, single song infinite, playlist infinite)
+        - [] note: single song once is an exercise to learn about loop (play & then start looping)
+      - [] shuffle
+    - [] Case Study will determine how keyVariable width or displayWidth will determine basic STOP button
+    - [] Note: STOP Button, square, determines basic sizes of other buttons
+    - [] Note: shapes in fast forward and next illustrate what actually happens
+  - [] Introduce difference between size() and fullScreen()
+  - [] Declare landscape, square, or portrait
+  - [] Use println() to verify CANVAS will fit into DISPLAY
+  - [] Introduce simple number OR variable comparison to populate appWidth & appHeight
+  - [] ERROR Catch: if CANVAS does not fit in DISPLAY, appWidth & appHeight are display key variables instead
+  - [] Optional ERROR Catch: ternary operator to turn phone from portrait to landscape
+  - [] Build formulae to divide appWidth into how many STOP buttons wide Case Study is
+  - [] Build reference of side length as local variable
+  - [] ERROR Catch: println() how many buttons in the height the appHeight will hold, does this match case study
+  - [] Advanced ERROR Catch: if total buttons on the height will not fit, adjust as needed
+  - [] IN void draw(){}
+    - [] Separate all button code with comments
+    - [] design of music buttons based on rect(), triangle(), and ellipse()
+    - [] Use line and 2D shape drawing features to design colours
+  - [] Hover over control of "almost click" (bright colour, bight red if serious, gray scale if simple feedback)
+    - [] note: fill the DIV rect() for each button for hover over
+  - [] Boolean-control line ink and shape fill with day mode and night mode colours
+    - [] introduce time clock as forcing control of night mode
+    - [] variable uses simple addition ( counting cycles of draw(){} )
+    - [] check time clock every million cycles and update variables ( i.e. 54000 cycles = 60 * 60 * 15 )
   
-  - Using the referent of the side length of the STOP button, design all layout rect() of all the other buttons
 
-- Advanced Buttons, require Array for Play List
+
+- [] Advanced Buttons, Combining Music Button Features with 2D Shapes
+- [] Require Array for Play List
+  - [] Code "Multiple" Song Buttons
+    - [] Introduce Array and Index from alpha numeric numbering
+    - [] Auto Play Button (used instead of a play button)
+    - [] Next Button
+    - [] Previous Button
+
 
 ### Ideas (Read this in VCS)
 - advanced introductory: list of music files .mp3, as populated from meta data from .mp3 files (CAUTION: this is an impossible ask, can you explain why)
@@ -96,6 +136,7 @@ Different Items to Grade
 - Concatenation of Strings to form pathways and file names
 - Population of all visual objects dependant on size() or fullScreen() to appWidth & appHeight
 - Music Subprogram & Boilerplate connections from TAB to MAIN
+- Music Features as key board short cuts & mousePressed buttons
 
 - Naming of groups of code and connection to MAIN Program
 
@@ -104,6 +145,8 @@ Note about assessment
 - Each Lesson is prototyped as a separate program
 
 List of Prototyped Programs to be in corporated into Music Program or App Engine
+- May change based on individual preference
+- Have a boiler plate new base program to prototype with
 - Loading Music and Sound Effects, verified with setup() code or very simple keyPressed(){} code
 - Music Player Button Features
 
