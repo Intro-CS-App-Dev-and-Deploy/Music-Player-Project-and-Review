@@ -7,16 +7,26 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 - Case Study of Music App or Music Buttons (Static or Pop-style Menu Item)
 - Find MP3 Files, music & Sound Effects (You Tube Audio Library)
   - Able to use my downloaded examples
-- Introduction and Review of Processing IDE
+- Introduction and Review of Processing IDE, Processing Boilerplate
 - Introduction and Review of Manager (Libraries & features, example code, various print resources related to code)
 - Introduction to Minim Library (code within Processing, Minim Website and Documentation)
 - Introduction to Variables: declaration, naming (camel & snake,), global & local, manipulation
 
 - Question about Progression: does minim allow static programs to work?
 
-- 
+- String Variables: pathways, files names and types, concatenation
+- Console for inspection: print() & println() with character escapes
+- Using Idea of Processing Boilerplate to inflate variables with specific music
+- Able to name music-variable same as fileName but better to introduce playList as collection of songsNum (intro array)
+- Verify Button Pressing uses a sound effect (keyPressed & mousePressed)
+  - introduce released and different parts of the mouse
+  - collectively called listeners, interrupts void draw() 
 
 # Assessment
+- Concatenation of Strings to form pathways and file names
+- Population of all visual objects dependant on size() or fullScreen() to appWidth & appHeight
+
+- Naming of groups of code and connection to MAIN Program
 
 
  ### Future Assignments to Check, when is unknown
