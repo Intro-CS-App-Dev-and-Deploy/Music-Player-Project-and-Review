@@ -25,10 +25,16 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 - Verify specific song will play with keyPressed and mousePressed
   - keyPressed: normal keys and keyCode
   - mousePressed: LEFT, RIGHT, CENTER, WHEEL, etc.
-- Introduce MP3 metadata, what peices of metadata will be used
+- Introduce MP3 metadata, what pieces of metadata will be used
 - Introduce NULL and Error catch related to single line IF, output empty String to CONSOLE
 - Finish Loading Music by summarizing it into a TAB and linking it to the MAIN Program (i.e. subprogram repeats boilerplate for connections to MAIN)
+- Key Board Shortcut for Quit: normal "Q" and ESC keycode button
+  - Reminder: void draw will finish executing rest of code grouping
+  - Will need delay() feature so keyPressed(){} will play full sound effects
+  - keyPressed(){} sound effect
+  - exit() sound effect
 - Algorithms for Music Features, prototyped in to keyPressed using Normal Keys
+- Note: Algorithms can be done at same time as 2D Buttons Objects (See Below)
   -  Simple Single Song Play Buttons, as Case Studies
     - Describe in simple words and answer "what does this button do, how does it differ from other buttons
     - Play-Pause (remember, develop these buttons separately then combine them)
@@ -48,17 +54,26 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
   - Once code is IN keypressed() under different Normal Buttons, group code and create separate VOIDs to name the feature
   - Purpose: code is written once but accessed more than once
   - keyPressed() should only have references to VOIDs in Music TAB (Subprogram)
+  - Advanced Buttons, require Array for Play List
+
+- 2D Shapes as Music Feature Symbols
+  - design of music buttons based on rect(), triangle(), and ellipse()
 
 
 
-### Ideas
+### Ideas (Read this in VCS)
 - advanced introductory: list of music files .mp3, as populated from meta data from .mp3 files (CAUTION: this is an impossible ask, can you explain why)
 
 - Multiple Songs require change to array and index (computer tracks alpha numeric variable naming)
 
 - Program Start in OS, Splash Screen to Enter, then Feature List
-- Music Program can be a button or an Easter Egg hidden as a hoverover feature developed into every case study
+- Music Program can be a button or an Easter Egg hidden as a hover over feature developed into every case study
 - 
+
+- Hover Over effects
+
+- Colour schemes: day and night
+- More advanced Personalizations
 
 ---
 
