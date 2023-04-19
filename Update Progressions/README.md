@@ -4,7 +4,17 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
 ---
 
 # Progressions short list
+- Case Study of Music App or Music Buttons (Static or Pop-style Menu Item)
+- Find MP3 Files, music & Sound Effects (You Tube Audio Library)
+  - Able to use my downloaded examples
+- Introduction and Review of Processing IDE
+- Introduction and Review of Manager (Libraries & features, example code, various print resources related to code)
+- Introduction to Minim Library (code within Processing, Minim Website and Documentation)
+- Introduction to Variables: declaration, naming (camel & snake,), global & local, manipulation
 
+- Question about Progression: does minim allow static programs to work?
+
+- 
 
 # Assessment
 
