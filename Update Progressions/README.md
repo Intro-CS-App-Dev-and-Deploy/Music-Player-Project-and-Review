@@ -34,12 +34,16 @@ General Idea: teaching lesson demonstrates what to accomplish, then project work
   - https://code.compartmental.net/minim/
 - [] Introduction to Variables: declaration, naming (camel & snake,), global & local, manipulation
 
-- [] Question about Progression: does minim allow static programs to work?
+- [] **Question** about Progression: does minim allow static programs to work?
 
 - [] String Variables: pathways, files names and types, concatenation
 - [] Console for inspection: print() & println() with character escapes
 - [] Using Idea of Processing Boilerplate to inflate variables with specific music
 - [] Able to name music-variable same as fileName but better to introduce playList as collection of songsNum (intro array)
+- [] Alternative to String Variables
+  - [] Have OS & Java Populate Pathway, Directory, & Reading of file names
+  - [] Output Variables to Console
+  - [] Example Exported Program developing directory to music
 - [] Verify Button Pressing uses a sound effect (keyPressed & mousePressed)
   - [] introduce released and different parts of the mouse
   - [] collectively called listeners, interrupts void draw() 
@@ -124,15 +128,35 @@ General Idea: teaching lesson demonstrates what to accomplish, then project work
     - [] Note: this is not crystal based but OS based ... OS might prioritize something else than 60 cycles of draw every second
 - [] Advanced Buttons, Combining Music Button Features with 2D Shapes
 - [] Require Array for Play List
+
+```JAVA
+// Pre-array: AudioPlayer song0, song1, song2, song3, song4, song5, song6, song7;
+int numberOfSongs = 8;
+AudioPlayer[] songs = new AudioPlayer[numberOfSongs]; //Play List Data Structure
+// Pre-array: AudioPlayer soundEffect0, soundEffect1;
+int numberOfSoundEffects = 2;
+AudioPlayer[] soundEffects = new AudioPlayer[numberOfSoundEffects];
+```
+
   - [] Code "Multiple" Song Buttons
     - [] Introduce Array and Index from alpha numeric numbering
     - [] Auto Play Button (used instead of a play button)
+      - [] Auto Play next song based on whether the current song is playing
+      - [] Students to develop algorithm
+      - [] Teacher to review connections from keyPressed(){} to draw(){} with a Boolean
+      - [] Actual AutoPlay Button is grouped in its own void
+      - [] Purpose: introduce concept of music button functions grouped into individual voids
     - [] Next Button
     - [] Previous Button
   - [] Advanced Buttons
     - [] Loop Current Song Infinitely
     - [] Loop Play List
     - [] Shuffle Play List (hint: randomly choose song number, might need casting)
+    
+```JAVA
+currentSong = int ( random( numberOfSongs-1 ) ); //Starts playlist from random song
+```
+
 - [] Advanced: drawing 2D buttons anywhere on the canvas (do activity of put a dot on the page and fold to find the ratio of dimensions)
   - [] All shapes start from one coordinate (middle of page)
 - [] Display ERROR: compare number to see if CANVAS is larger than display
