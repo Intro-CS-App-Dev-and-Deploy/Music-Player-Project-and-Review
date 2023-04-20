@@ -10,6 +10,12 @@ Example To Do List
 - [x] checked item
 - <del> [x] deleted item </del>
 
+Purpose of Music Player in CS20 & CS30: app engine with subprograms and ability for new app to play music and sound effects
+
+Applications of App Engine
+- Weather App
+- Tic Tac Toe, Super Tic Tac Toe
+
 ---
 
 **Reminder:** ReadMe.MD should be known as a list making tool with HTML and GitHub Markdown
