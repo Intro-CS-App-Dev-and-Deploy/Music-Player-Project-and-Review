@@ -16,6 +16,8 @@ Applications of App Engine
 - Weather App
 - Tic Tac Toe, Super Tic Tac Toe
 
+General Idea: teaching lesson demonstrates what to accomplish, then project emphasizes repetition
+
 ---
 
 **Reminder:** ReadMe.MD should be known as a list making tool with HTML and GitHub Markdown
