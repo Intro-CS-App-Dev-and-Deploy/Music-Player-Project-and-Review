@@ -5,6 +5,10 @@ Applications of Music Program: promoted by a simple website hosted on GitHub (HT
 - [] Drawing App, will be a lesson
 - [] Celebration Card, not a lesson but can be exported as a computer app and downloaded by anyone
 
+Example To Do List
+- [] List item
+- [x] checked item
+- <del> [x] deleted item </del>
 
 ---
 
