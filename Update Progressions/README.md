@@ -1,6 +1,11 @@
 # Music Player
 Static to Basic Objects, developing a Music Player either as a CS20-30 Review or CS10 Course Long Project
 
+Applications of Music Program: promoted by a simple website hosted on GitHub (HTML & CSS, or JavaScript DOM)
+- [] Drawing App, will be a lesson
+- [] Celebration Card, not a lesson but can be exported as a computer app and downloaded by anyone
+
+
 ---
 
 **Reminder:** ReadMe.MD should be known as a list making tool with HTML and GitHub Markdown
@@ -117,6 +122,12 @@ Static to Basic Objects, developing a Music Player either as a CS20-30 Review or
     - [] Loop Play List
     - [] Shuffle Play List (hint: randomly choose song number, might need casting)
 - [] Advanced: drawing 2D buttons anywhere on the canvas (do activity of put a dot on the page and fold to find the ratio of dimensions)
+  - [] All shapes start from one coordinate (middle of page)
+
+- [] Display ERROR: compare number to see if CANVAS is larger than display
+  - [] ERROR Catch: appWidth and appHeight are displayWidth and displayHeight, not width and height
+  - [] Useful when not using size()
+
 
 
 GOTO P4 and CONTINUE HERE
