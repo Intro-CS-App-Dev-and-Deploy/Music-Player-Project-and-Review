@@ -27,6 +27,7 @@ Applications of App Engine
 - [] Introduction and Review of Processing IDE, Processing Boilerplate
 - [] Introduction and Review of Manager (Libraries & features, example code, various print resources related to code)
 - [] Introduction to Minim Library (code within Processing, Minim Website and Documentation)
+  - https://code.compartmental.net/minim/
 - [] Introduction to Variables: declaration, naming (camel & snake,), global & local, manipulation
 
 - [] Question about Progression: does minim allow static programs to work?
@@ -117,9 +118,6 @@ Applications of App Engine
     - [] check time clock every million cycles and update variables
     - [] For example, checking every 15 minutes, 54000 cycles = 60 * 60 * 15
     - [] Note: this is not crystal based but OS based ... OS might prioritize something else than 60 cycles of draw every second
-  
-
-
 - [] Advanced Buttons, Combining Music Button Features with 2D Shapes
 - [] Require Array for Play List
   - [] Code "Multiple" Song Buttons
@@ -133,7 +131,6 @@ Applications of App Engine
     - [] Shuffle Play List (hint: randomly choose song number, might need casting)
 - [] Advanced: drawing 2D buttons anywhere on the canvas (do activity of put a dot on the page and fold to find the ratio of dimensions)
   - [] All shapes start from one coordinate (middle of page)
-
 - [] Display ERROR: compare number to see if CANVAS is larger than display
   - [] ERROR Catch: appWidth and appHeight are displayWidth and displayHeight, not width and height
   - [] Useful when not using size()
