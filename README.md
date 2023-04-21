@@ -1,6 +1,19 @@
 # Music Player
 Static to Basic Objects, developing a Music Player either as a CS20-30 Review or CS10 Course Long Project
 
+Program Dependencies Update
+- Sound Seems to work now, 20191106
+- Minim does to work now, 20220103
+
+See https://processing.org/tutorials/sound/
+
+See https://poanchen.github.io/blog/2016/11/15/how-to-add-background-music-in-processing-3.0
+
+Minim Hyperlinks
+- http://code.compartmental.net/tools/minim/quickstart/
+- https://processing.org/reference/libraries / Search Minim
+- http://code.compartmental.net/minim/
+
 ---
 
 # To Do List
