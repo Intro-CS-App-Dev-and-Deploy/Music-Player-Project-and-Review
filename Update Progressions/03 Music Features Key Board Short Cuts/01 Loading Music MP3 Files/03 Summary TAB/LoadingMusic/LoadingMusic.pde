@@ -1,7 +1,3 @@
-/* Boilerplate with Minim Library Added
- All Coding Examples added, etc., added into IDE, not as a library
- See https://code.compartmental.net/minim/
- */
 //Libraries and Dependancies
 import ddf.minim.*;
 import ddf.minim.analysis.*;
@@ -11,13 +7,17 @@ import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 //
 //Global Variables
-Minim minim;
-int numberOfSongs = 1; //Depends on number of files
-AudioPlayer song0;
-int numberOfSoundEffects = 2;
-AudioPlayer soundEffect0, soundEffect1;
 //
 void setup() {
+  //
+  musicLoadSetup();
+  //
+  // .loop(0) // simple play code, includes rewind
+  // Note: if not commented, will play all at once
+  song0.loop(0);
+  soundEffect0.loop(0);
+  soundEffect1.loop(0);
+  //
 } //End setup
 //
 void draw() {

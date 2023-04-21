@@ -29,6 +29,7 @@ General Idea: teaching lesson demonstrates what to accomplish, then project work
 - [] Find MP3 Files, music & Sound Effects (You Tube Audio Library)
   - [] Able to use my downloaded examples
 - [] Introduction and Review of Processing IDE, Processing Boilerplate
+  - [] Pressing Compile creates the CANVAS (combination of file name / setup() & draw() )
 - [] Introduction and Review of Manager (Libraries & features, example code, various print resources related to code)
 - [] Introduction to Minim Library (code within Processing, Minim Website and Documentation)
   - https://code.compartmental.net/minim/
