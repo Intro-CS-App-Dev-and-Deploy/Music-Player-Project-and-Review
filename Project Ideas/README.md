@@ -7,6 +7,8 @@ Turning the Music App or App Engine into ...
 
 Celebration Card
 
+A Read-a-long Book, see pathway above
+
 Drawing App
 
 Weather App
@@ -17,5 +19,6 @@ Tic Tac Toe
 
 # To Include: 
 
+Meditation App 
 
 ---
