@@ -189,7 +189,13 @@ GOTO P4 and CONTINUE HERE
 - List of Expected Prototyped Programs, <a href="">Click Here when Available</a>
 
 Different Items to Grade
-- Concatenation of Strings to form pathways and file names
+- Loading Music: boilerplate, minim library, pathways, song & sound effect files and file extensions
+- Quit Button: 'Q', 'ESC', Actual Mouse Button
+
+CONTINUE HERE
+
+
+
 - Population of all visual objects dependant on size() or fullScreen() to appWidth & appHeight
 - Music Subprogram & Boilerplate connections from TAB to MAIN
 - Music Features as key board short cuts & mousePressed buttons
