@@ -8,8 +8,8 @@ import ddf.minim.ugens.*;
 
 //Global Variables
 Minim minim;
-AudioPlayer song1; //"Song One"
-AudioMetaData songMetaData1; //"Song Meta One"
+AudioPlayer song0; //"Song One"
+AudioMetaData songMetaData0; //"Song Meta One"
 
 void setup() {
   size(512, 256, P2D);
