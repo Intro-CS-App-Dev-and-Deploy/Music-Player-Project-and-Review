@@ -193,6 +193,8 @@ Different Items to Grade
 - Quit Button:
   - Mandatory: 'Q', 'ESC'
   - Optional, Actual Mouse Button (LEFT, RIGHT, CENTER)
+- Inflating String variables with MP3 Metadata, outputted to CONSOLE to verify
+
 
 CONTINUE HERE
 
