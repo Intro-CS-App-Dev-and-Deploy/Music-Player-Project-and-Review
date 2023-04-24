@@ -23,7 +23,7 @@ void musicLoadSetup() {
   char dereferencer = '.';
   String fileExtension = "mp3";
   //
-  String soundPathway = upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + FreeWare_Music;
+  String soundPathway = upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + FreeWare_Music;
   String musicPathway = soundPathway + fslash + MusicDownload;
   String soundEffectPathway = soundPathway + fslash + SoundEffect;
   //Inspect Variable
@@ -34,6 +34,7 @@ void musicLoadSetup() {
   //
   //Building Global Variables from Local Variables, some information does not need to be remembered
   song0 = minim.loadFile( musicPathway + fslash + groove + dereferencer + fileExtension ); //able to pass absolute path, file name & extension, and URL
+  song0MetaData = song0.getMetaData(); //reads song meta 1, like song 1, mimicing array notation
   soundEffect0 = minim.loadFile( soundEffectPathway + fslash + CarDoorClosing + dereferencer + fileExtension );
   soundEffect1 = minim.loadFile( soundEffectPathway + fslash + The_Simplest_Sting + dereferencer + fileExtension );
   //

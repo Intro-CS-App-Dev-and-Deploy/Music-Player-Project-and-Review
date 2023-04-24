@@ -15,6 +15,8 @@ void setup() {
   //Unique Text Code, this program only
   textFont(createFont("Serif", 12)); //simple text starting code, refer to how text is usually started, uses default font already installed
   //
+  musicLoadSetup();
+  //
   //For Prototyping, print all information to the console first
   //Verifying Meta Data, 18 println's
   println( "File Name: ", song0MetaData.fileName() );
