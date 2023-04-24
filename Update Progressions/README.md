@@ -190,7 +190,9 @@ GOTO P4 and CONTINUE HERE
 
 Different Items to Grade
 - Loading Music: boilerplate, minim library, pathways, song & sound effect files and file extensions
-- Quit Button: 'Q', 'ESC', Actual Mouse Button
+- Quit Button:
+  - Mandatory: 'Q', 'ESC'
+  - Optional, Actual Mouse Button (LEFT, RIGHT, CENTER)
 
 CONTINUE HERE
 
