@@ -24,6 +24,9 @@ void keyPressed() {
 } //End keyPressed
 //
 void mousePressed() {
+  if ( mouseButton == LEFT ) testSong();
+  if ( mouseButton == CENTER ) soundEffect0.loop(0); // Doesn't stop, buggie
+  if ( mouseButton == RIGHT ) soundEffect1.loop(0); // Doesn't stop, buggie
 } //End mousePressed
 //
 //End MAIN Program
