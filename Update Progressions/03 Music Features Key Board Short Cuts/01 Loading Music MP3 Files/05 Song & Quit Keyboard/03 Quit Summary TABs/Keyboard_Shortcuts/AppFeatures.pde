@@ -1,6 +1,6 @@
 /* App Features not related to Music
-Quit Feature
-*/
+ Quit Feature
+ */
 //
 //Global Variable
 //

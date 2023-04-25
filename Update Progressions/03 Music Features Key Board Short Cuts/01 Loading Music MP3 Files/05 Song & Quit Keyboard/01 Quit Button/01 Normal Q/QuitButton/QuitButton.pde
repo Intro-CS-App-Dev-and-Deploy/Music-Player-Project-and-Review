@@ -19,6 +19,7 @@ void draw() {
 void keyPressed() {
   soundEffect1.loop(0); // Auditory Keyboard Feedback
   delay(4000); //See draw() to understand time in milliseconds
+  soundEffect1.rewind();
   soundEffect1.pause();
   if ( key=='Q' || key=='q' ) {
     soundEffect0.loop(0); // Exit Sound

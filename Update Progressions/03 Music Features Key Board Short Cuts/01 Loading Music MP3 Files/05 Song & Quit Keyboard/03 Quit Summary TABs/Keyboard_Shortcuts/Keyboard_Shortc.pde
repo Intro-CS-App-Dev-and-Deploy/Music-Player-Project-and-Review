@@ -20,6 +20,7 @@ void keyPressed() {
   soundEffect1.loop(0); // Auditory Keyboard Feedback
   delay(4000); //See draw() to understand time in milliseconds
   soundEffect1.pause();
+  soundEffect1.rewind();
   keyBoard_shortCuts();
 } //End keyPressed
 //
