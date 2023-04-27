@@ -35,15 +35,13 @@ void keyPressed() {
   //Hint: notice human numbering vs. computer numbering
   //Note: if(key=='1')song0.loop(0); will change to array & index introduction
   if ( key == '1' ) songs[0].loop(0); //.rewind() is included in .loop()
-  /*
-  if ( key == '2' ) songs[].loop(0);
-  if ( key == '3' ) songs[].loop(0);
-  if ( key == '4' ) songs[].loop(0);
-  if ( key == '5' ) songs[].loop(0);
-  if ( key == '6' ) songs[].loop(0);
-  if ( key == '7' ) songs[].loop(0);
-  if ( key == '8' ) songs[].loop(0);
-  */
+  if ( key == '2' ) songs[1].loop(0);
+  if ( key == '3' ) songs[2].loop(0);
+  if ( key == '4' ) songs[3].loop(0);
+  if ( key == '5' ) songs[4].loop(0);
+  if ( key == '6' ) songs[5].loop(0);
+  if ( key == '7' ) songs[6].loop(0);
+  if ( key == '8' ) songs[767].loop(0);
   //
   //Students to make these smarter
   //Separated into single songs and multiple songs
