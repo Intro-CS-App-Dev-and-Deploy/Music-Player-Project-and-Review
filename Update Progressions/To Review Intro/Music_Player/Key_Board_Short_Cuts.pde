@@ -7,7 +7,7 @@ void keyPressedShortCuts() {
 //
 void musicShortCuts() {
   //Key Board Short Cuts for Music, use numbers
-  //Hint: notice human numbering vs. computer numbering9
+  //Hint: notice human numbering vs. computer numbering
   //Note: if(key=='1')song0.loop(0); will change to array & index introduction
   if ( key == '1' ) songs[0].loop(0); //.rewind() is included in .loop()
   if ( key == '2' ) songs[1].loop(0);
