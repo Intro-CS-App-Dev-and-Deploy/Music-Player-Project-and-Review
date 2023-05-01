@@ -58,6 +58,12 @@ void musicFeaturesKeyPressed() {
   if ( key=='Q' || key=='q' ) exitProgram();
   if ( key==CODED || keyCode==ESC ) exitProgram();
   //
+  if ( key == 'P' || key=='p' ) playPause(); //teacher started
+  if ( key == 'M' || key=='m' ) mute(); //teacher started
+  if ( key == 'S' || key=='s' ) stopSong(); //teacher started
+  if ( key == 'F' || key=='f' ) fastForward(); //teacher started
+  if ( key == 'R' || key=='r' ) fastRewind(); //teacher started
+  //
 }//End Music Features Key Pressed
 //
 void musicFeaturesMousePressed() {
@@ -82,5 +88,65 @@ void testingMusic() {
   if ( key == '7' ) songs[6].loop(0);
   if ( key == '8' ) songs[7].loop(0);
 } //End Testing Music
+//
+void playPause()
+{
+  //Ask computer if the song is playing
+  //Note: remember to use Auto Play
+  //ERROR: song will not play if at the end
+  if ( songs[currentSong].isPlaying() ) {
+    songs[currentSong].pause();
+  } else if ( songs[currentSong].position() >= songs[currentSong].length()*4/5 ) { //80% of the song
+    songs[currentSong].rewind();
+    songs[currentSong].play();
+    //Remember, Auto Play is better b/c it plays the next song
+  } else {
+    //autoPlay(), is better here
+    songs[currentSong].play(); //Interim solution
+  }
+}//End Play Pause
+//
+void mute()
+{
+  //MUTE, not PAUSE, only affects the speakers
+  //Based on a question: is the song muted
+  //ERROR: this MUTE Button only works when the song is playing
+  //ERROR: user will spam mute if song is at end of file
+  if ( songs[currentSong].isMuted() ) {
+    songs[currentSong].unmute();
+  } else if ( songs[currentSong].isMuted() && songs[currentSong].position() >= songs[currentSong].length()*4/5 ) {
+    songs[currentSong].rewind(); //one solution
+    songs[currentSong].unmute();
+    //
+    /* Other solutions
+     - unmute the next song
+     - show notification speakers are muted and song will not play
+     */
+  } else {
+    songs[currentSong].mute(); //simple solution, contains two ERRORS, see above
+  }
+}//End Mute
+//
+void stopSong()
+{
+  //Based on a question: is the song playing
+  //Hint: would this fix the ERROR of the MUTE Button
+  //Note: STOP is actually afancy rewind, no ERRORS
+  if ( songs[currentSong].isPlaying() ) {
+    songs[currentSong].pause();
+    songs[currentSong].rewind();
+  } else {
+    songs[currentSong].rewind();
+  }
+}//End Stop Song
+//
+void fastForward() {
+  //Asks comptuer if the song is playing
+  if ( songs[currentSong].isPlaying() ) songs[currentSong].skip(1000); //parameter in milliseconds
+}//End Fast Forward
+//
+void fastRewind() {
+  if ( songs[currentSong].isPlaying() ) songs[currentSong].skip(-1000); //parameter in milliseconds
+}//End Fast Rewind
 //
 // End Music Subprogram
