@@ -28,7 +28,7 @@ void keyPressed() {
   //Separated into single songs and multiple songs
   //
   //Play any song to Start
-  //if ( key == 'W' || key=='w' ) shufflePlaylist(); //shuffle
+  if ( key == 'K' || key=='k' ) shuffleCurentSong(); //shuffle
   //
   //Functions that go between songs
   //if ( key == 'U' || key=='u' ) autoPlay(); //teacher started
@@ -42,5 +42,21 @@ void keyPressed() {
 //
 void mousePressed() {
 } //End mousePressed
+//
+void shuffleCurentSong() {
+  if ( songs[currentSong].isPlaying() ) {
+    songs[currentSong].pause();
+    songs[currentSong].rewind();
+    randomCurrentSong(); //See VOID Below
+    songs[currentSong].play();
+  } else {
+    songs[currentSong].rewind();
+    currentSong = int ( random( numberOfSongs-1 ) ); //Starts playlist from random song
+    songs[currentSong].play();
+  }
+} //End Shuffle Play List
+void randomCurrentSong() {
+  currentSong = int ( random( numberOfSongs-1 ) ); //Starts playlist from random song
+} //End Random Current Song
 //
 //End MAIN Program
