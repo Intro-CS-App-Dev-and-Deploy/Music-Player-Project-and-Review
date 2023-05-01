@@ -29,6 +29,7 @@ void keyPressed() {
   //
   //Single Song Features
   if ( key == 'P' || key=='p' ) playPause(); //teacher started
+  
   if ( key == 'M' || key=='m' ) mute(); //teacher started
   if ( key == 'S' || key=='s' ) stopSong(); //teacher started
   if ( key == 'F' || key=='f' ) fastForward(); //teacher started
