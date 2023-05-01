@@ -169,6 +169,7 @@ void loopPlaylist() {
 }//End Loop the Playlist
 //
 void shufflePlaylist() {
+  //Play Random Song
 }//End Shuffle the Playlist()
 //
 void loopAndShuffle() {
