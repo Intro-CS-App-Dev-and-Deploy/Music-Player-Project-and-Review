@@ -53,10 +53,15 @@ void musicLoadSetup() {
 //
 void musicFeaturesKeyPressed() {
   //
+  keyBoardFeedBack();
+  //
   testingMusic();
   //
   if ( key=='Q' || key=='q' ) exitProgram();
   if ( key==CODED || keyCode==ESC ) exitProgram();
+  //
+  //Students to make these smarter
+  //Separated into single songs and multiple songs
   //
   if ( key == 'P' || key=='p' ) playPause(); //teacher started
   if ( key == 'M' || key=='m' ) mute(); //teacher started
@@ -71,6 +76,12 @@ void musicFeaturesKeyPressed() {
   if ( key == 'U' || key=='u' ) autoPlay(); //teacher started
   //Note: for this Auto Play to Work, song must be playing
   //
+  if ( key == 'N' || key=='n' ) nextSong(); //psuedo code only
+  if ( key == 'B' || key=='b' ) previousSong(); //psuedo code only
+  if ( key == 'L' || key=='l' ) loopSong(); //loops current song infinitely
+  if ( key == 'O' || key=='o' ) loopPlaylist(); //entire playlist
+  if ( key == 'E' || key=='e' ) loopAndShuffle(); //Loop and Shuffle
+  //
 }//End Music Features Key Pressed
 //
 void musicFeaturesMousePressed() {
@@ -81,6 +92,13 @@ void exitProgram() {
   delay(2800); //See draw() to understand time in milliseconds
   exit();
 }//End Exit Program
+//
+void keyBoardFeedBack() {
+  soundEffects[1].loop(0); // Auditory Keyboard Feedback
+  delay(4000); //See draw() to understand time in milliseconds
+  soundEffects[1].pause();
+  soundEffects[1].rewind();
+} //End Key Board Feed Back
 //
 void testingMusic() {
   // Testing All Songs
@@ -200,5 +218,37 @@ void autoPlayMusic() { //for draw()
     songs[currentSong].play();
   }
 }//End Auto Play Music
+//
+void nextSong() {
+  //ERROR: ArrayListOutOfBounds
+  //ERROR: currentSong++; plays two songs or more at once
+  if ( songs[currentSong].isPlaying() ) {
+    //Students to finish
+    //Current Song: .pause(), .rewind()
+    //Next Song: currentSong++
+    //Now: DELAY-1-Second, .play()
+  } else if (currentSong >= songs.length-1 ) {
+    currentSong = 0;
+  } else {
+    songs[currentSong].rewind();
+    currentSong++;
+  }
+}//End Next Song
+//
+void previousSong() {
+  //ERROR: ArrayListOutOfBounds
+  currentSong--;
+}//End Previous Song
+//
+void loopSong() {
+}//End Loop Song
+//
+void loopPlaylist() {
+}//End Loop the Playlist
+//
+void loopAndShuffle() {
+  //Student to finish
+  //Hint: random() and casting, see Global Variables' currentSong declaration
+}//End Loop And Shuffle
 //
 // End Music Subprogram

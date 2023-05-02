@@ -7,3 +7,48 @@ Start the Program: Play the FIRST Song or a RANDOM FIRST SONG
 MUTE: Anytime
 FAST Forward: Anytime
 Fast Rewind: Anytime
+
+
+Think about 
+- Autoplay, Pause
+- Stop
+- Next
+- Previous
+- ETC
+Ensure buttons work with files playing and not playing
+If not playing: output play list and current song
+
+
+
+
+
+Current Key Board Short Cuts
+
+Reiamge the key board short cuts
+- not W-A-S-D-X keys
+- not UP-LEFT-RIGHT-DOWN Keys
+
+if ( key=='Q' || key=='q' ) exitProgram();
+  if ( key==CODED || keyCode==ESC ) exitProgram();
+  //
+  //Students to make these smarter
+  //Separated into single songs and multiple songs
+  //
+  if ( key == 'P' || key=='p' ) playPause(); //teacher started
+  if ( key == 'M' || key=='m' ) mute(); //teacher started
+  if ( key == 'S' || key=='s' ) stopSong(); //teacher started
+  if ( key == 'F' || key=='f' ) fastForward(); //teacher started
+  if ( key == 'R' || key=='r' ) fastRewind(); //teacher started
+  //
+  //Play any song to Start
+  if ( key == 'K' || key=='k' ) shuffleCurentSong(); //shuffle
+  //
+  //Functions that go between songs
+  if ( key == 'U' || key=='u' ) autoPlay(); //teacher started
+  //Note: for this Auto Play to Work, song must be playing
+  //
+  if ( key == 'N' || key=='n' ) nextSong(); //psuedo code only
+  if ( key == 'B' || key=='b' ) previousSong(); //psuedo code only
+  if ( key == 'L' || key=='l' ) loopSong(); //loops current song infinitely
+  if ( key == 'O' || key=='o' ) loopPlaylist(); //entire playlist
+  if ( key == 'E' || key=='e' ) loopAndShuffle(); //Loop and Shuffle

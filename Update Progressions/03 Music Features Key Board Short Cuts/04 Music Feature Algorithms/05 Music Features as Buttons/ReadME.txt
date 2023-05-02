@@ -1,9 +1,7 @@
 
-Reiamge the key board short cuts
-- not W-A-S-D-X keys
-- not UP-LEFT-RIGHT-DOWN Keys
+Only code the Play-Pause Button (auto play and pause)
 
-Think about 
+Only Prototype the
 - Autoplay, Pause
 - Stop
 - Next
@@ -12,5 +10,3 @@ Think about
 Ensure buttons work with files playing and not playing
 If not playing: output play list and current song
 
-What are the ERRORS of the summary
-- See other ReadMe File
