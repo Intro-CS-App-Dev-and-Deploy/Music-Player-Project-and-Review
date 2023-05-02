@@ -51,7 +51,7 @@ void shuffleCurentSong() {
     songs[currentSong].play();
   } else {
     songs[currentSong].rewind();
-    currentSong = int ( random( numberOfSongs-1 ) ); //Starts playlist from random song
+    randomCurrentSong();
     songs[currentSong].play();
   }
 } //End Shuffle Play List

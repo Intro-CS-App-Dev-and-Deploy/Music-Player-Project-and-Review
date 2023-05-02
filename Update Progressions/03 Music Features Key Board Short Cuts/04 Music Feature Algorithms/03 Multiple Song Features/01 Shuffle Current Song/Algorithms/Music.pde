@@ -28,7 +28,7 @@ void musicLoadSetup() {
   char dereferencer = '.';
   String fileExtension = "mp3";
   //
-  String soundPathway = upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + FreeWare_Music;
+  String soundPathway = upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + upFolder + fslash + FreeWare_Music;
   String musicPathway = soundPathway + fslash + MusicDownload;
   String soundEffectPathway = soundPathway + fslash + SoundEffect;
   //Inspect Variable

@@ -41,7 +41,7 @@ void keyPressed() {
   if ( key == '5' ) songs[4].loop(0);
   if ( key == '6' ) songs[5].loop(0);
   if ( key == '7' ) songs[6].loop(0);
-  if ( key == '8' ) songs[767].loop(0);
+  if ( key == '8' ) songs[7].loop(0);
   //
   //Students to make these smarter
   //Separated into single songs and multiple songs

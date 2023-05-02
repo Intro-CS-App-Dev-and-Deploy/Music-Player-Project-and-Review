@@ -1,0 +1,9 @@
+
+What features are in a regular music player
+
+Start the Program: Play the FIRST Song or a RANDOM FIRST SONG
+- Will play entire playlist only once (Autoplay button)
+
+MUTE: Anytime
+FAST Forward: Anytime
+Fast Rewind: Anytime
