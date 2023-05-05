@@ -1,5 +1,6 @@
 
 Only code the Play-Pause Button (auto play and pause)
+- illustrates the code required to repeat
 
 Only Prototype the
 - Autoplay, Pause

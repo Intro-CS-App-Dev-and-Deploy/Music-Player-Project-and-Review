@@ -59,6 +59,7 @@ void nextSong() {
 //
 void previousSong() {
   //ERROR: ArrayListOutOfBounds
+  //Note: see nextSong to develop code for previousSong
   currentSong--;
 }//End Previous Song
 //
