@@ -42,6 +42,8 @@ void mousePressed() {
 void nextSong() {
   //ERROR: ArrayListOutOfBounds
   //ERROR: currentSong++; plays two songs or more at once
+  //NOTE: currentSong++ is same as currentSong=currentSong+1
+  //NOTE: currentSong++ is same as currentSong+=1
   if ( songs[currentSong].isPlaying() ) {
     //Students to finish
     //Current Song: .pause(), .rewind()
