@@ -517,3 +517,29 @@ See: https://github.com/Intro-CS-App-Dev-and-Deploy/App-Development/tree/main/Mu
 Music Player Button Prototyping: https://github.com/Intro-CS-App-Dev-and-Deploy/Music-Player-Button-2D-Shapes-Prototyping
 
 ---
+
+# To Include: Websites
+
+Progressions for Promoting the Music Player
+- GitHub Repository: .github.io
+- File and Folders
+  - index.html
+  - Folders: childPages, Images, Videos, Music Files, styles, scripts
+
+- Child Pages for Developing the 
+  - Head & Meta Data
+  - Webpage Header, H1
+  - Webpage Footer & Quote & Identification, H1, p, a & href & target, strong, em
+  - Webpage NAV, ol, ul
+  - Webpage Body Feature: images
+  - Webpage Body: all semantic tags (instead of DIVs)
+
+- Child Page Template:
+  - vw units
+  - Webpage Design: 2 or 3 column flexbox
+
+Case Study
+
+Enrichment: use JavaScript DOM
+
+---
