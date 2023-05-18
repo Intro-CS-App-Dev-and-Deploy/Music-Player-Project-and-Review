@@ -535,7 +535,8 @@ Progressions for Promoting the Music Player
   - Webpage Body: all semantic tags (instead of DIVs)
 
 - Child Page Template:
-  - vw units
+  - vw units (basic sematic tags auto font setup)
+  - images
   - Webpage Design: 2 or 3 column flexbox
 
 Case Study
