@@ -349,3 +349,26 @@ See: https://github.com/Intro-CS-App-Dev-and-Deploy/App-Development/tree/main/Mu
 Music Player Button Prototyping: https://github.com/Intro-CS-App-Dev-and-Deploy/Music-Player-Button-2D-Shapes-Prototyping
 
 ---
+
+CS10 & CS20 Grading Focus - End User Experience, code that is necessary
+
+- Background Image, Night Mode, and Overall Design
+- One button works (usually play)
+- String Variables tells me about the song
+- String Variables tells me about the play list
+- Indicators tells me about how the song is being played
+
+Basic Function
+Play-Pause-Play-FF-RR-Mute
+Stop
+Play-Next-Prev (10 Second)
+
+How does a background music player become interactive in another app?
+Loop and Auto-play become very important here
+
+Absolute Pathways read on export
+Directories read relatively
+
+---
+
+Intro Website Music Player Promotion
