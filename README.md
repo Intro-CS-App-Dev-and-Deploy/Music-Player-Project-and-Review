@@ -386,5 +386,7 @@ End User Experience
 
 Coding Expectations
 - Music Strings to Console, then GUI
-- CANVAS, not fullScreen, check in 
+- CANVAS, not fullScreen, check if CANVAS too big for display
+- Orientation Save: switching width & height
+
 ---
