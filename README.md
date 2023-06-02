@@ -384,5 +384,7 @@ Intro Website Music Player Promotion
 
 End User Experience
 
-
+Coding Expectations
+- Music Strings to Console, then GUI
+- CANVAS, not fullScreen, check in 
 ---
