@@ -369,6 +369,14 @@ Loop and Auto-play become very important here
 Absolute Pathways read on export
 Directories read relatively
 
+Combining Apps into single experience (no permissions given up)
+- Opening Page: what information to display, experienced to design
+  - Wake-up and Time Display, other timezones, Night-mode (beginning Personal Assistant)
+  - Weather App: more detailed information, forecast information
+  - Music: more detailed buttons, images, and experience of the music
+- Opening Playlist: Get Going, Mediation (play in background)
+- Menu 
+
 ---
 
 Intro Website Music Player Promotion
