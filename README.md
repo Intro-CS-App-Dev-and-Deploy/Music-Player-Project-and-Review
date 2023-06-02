@@ -375,7 +375,8 @@ Combining Apps into single experience (no permissions given up)
   - Weather App: more detailed information, forecast information
   - Music: more detailed buttons, images, and experience of the music
 - Opening Playlist: Get Going, Mediation (play in background)
-- Menu 
+- Menu to different apps
+- Tic Tac Toe Game or other games to play
 
 ---
 
